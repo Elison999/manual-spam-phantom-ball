@@ -1,6 +1,6 @@
 -- Draggable Mobile Toggle Spam Script - Roblox
 -- Configuration
-local MULTIPLIER = 20 -- Adjust the multiplier here
+local MULTIPLIER = 1 -- Adjust the multiplier here
 local DELAY = 0.0000000000000001 -- Delay between executions (in seconds)
 
 -- Services
