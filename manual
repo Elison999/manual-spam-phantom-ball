@@ -27,7 +27,7 @@ screenGui.Parent = playerGui
 -- Create main frame
 local mainFrame = Instance.new("Frame")
 mainFrame.Name = "MainFrame"
-mainFrame.Size = UDim2.new(0, 200, 0, 120)
+mainFrame.Size = UDim2.new(0, 100, 0, 60)
 mainFrame.Position = UDim2.new(0.5, -100, 0.5, -60)
 mainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 mainFrame.BorderSizePixel = 0
@@ -47,7 +47,7 @@ stroke.Parent = mainFrame
 -- Create title bar for dragging
 local titleBar = Instance.new("Frame")
 titleBar.Name = "TitleBar"
-titleBar.Size = UDim2.new(1, 0, 0, 30)
+titleBar.Size = UDim2.new(1, 0, 0, 15)
 titleBar.Position = UDim2.new(0, 0, 0, 0)
 titleBar.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 titleBar.BorderSizePixel = 0
@@ -60,7 +60,7 @@ titleCorner.Parent = titleBar
 -- Title
 local titleLabel = Instance.new("TextLabel")
 titleLabel.Name = "Title"
-titleLabel.Size = UDim2.new(1, -10, 1, 0)
+titleLabel.Size = UDim2.new(1, -5, 1, 0)
 titleLabel.Position = UDim2.new(0, 5, 0, 0)
 titleLabel.BackgroundTransparency = 1
 titleLabel.Text = "Spam Toggle"
@@ -72,7 +72,7 @@ titleLabel.Parent = titleBar
 -- Toggle Button
 local toggleButton = Instance.new("TextButton")
 toggleButton.Name = "ToggleButton"
-toggleButton.Size = UDim2.new(0.8, 0, 0, 40)
+toggleButton.Size = UDim2.new(0.4, 0, 0, 20)
 toggleButton.Position = UDim2.new(0.1, 0, 0.4, 0)
 toggleButton.BackgroundColor3 = Color3.fromRGB(220, 50, 50)
 toggleButton.BorderSizePixel = 0
@@ -89,7 +89,7 @@ buttonCorner.Parent = toggleButton
 -- Status label
 local statusLabel = Instance.new("TextLabel")
 statusLabel.Name = "StatusLabel"
-statusLabel.Size = UDim2.new(0.8, 0, 0, 20)
+statusLabel.Size = UDim2.new(0.4, 0, 0, 10)
 statusLabel.Position = UDim2.new(0.1, 0, 0.75, 0)
 statusLabel.BackgroundTransparency = 1
 statusLabel.Text = "Multiplier: " .. MULTIPLIER
